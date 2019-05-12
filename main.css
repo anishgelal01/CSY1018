@@ -1,0 +1,231 @@
+h1 {
+  font-family: 'Times New Roman', Calibri;
+  color: black;
+  text-align: center;
+  font-size: 60px;
+}
+
+h5 {
+  font-family: 'Times New Roman', Calibri;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2{
+  font-family: 'Times New Roman', Calibri;
+  color: #000;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Times New Roman', Calibri;
+  color: black;
+}
+
+h4{
+  font-family: 'Times New Roman', Calibri;
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: 'Times New Roman', Calibri;
+  font-size: 20px;
+}
+
+
+
+body {
+  
+  font-family: 'Times New Roman', Calibri;
+  color: black;
+  background: linear-gradient(to right, #070000, rgba(76, 0, 1, 0.349), #070000);
+  
+  
+}
+
+
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+.container2{
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+
+head{
+  background: #fff;
+  overflow: hidden;
+}
+/* This is the code for my navigation bar */
+nav{
+  float: right;
+  line-height: 70px;
+}
+
+a { color: black }
+a:hover { text-decoration: none; color:#4C0001; }
+
+nav li{
+  display:inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #858282;
+  line-height: normal;
+}
+
+.content1 ul{
+  
+  background: rgba(76, 0, 1, 0.349);
+  padding: 10px;
+  border: 15px solid rgba(139, 137, 137, 0.288);
+  list-style-type: none;
+}
+
+
+.content2 ul{
+  float: right;
+  width: 290px;
+  background: rgba(76, 0, 1, 0.349);
+  padding: 5px;
+  border: 10px solid rgba(139, 137, 137, 0.288);
+  
+}
+
+.content2 ul li{
+  color: #000;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Calibri;
+  list-style-type:none;
+  
+}
+
+.content3 ul{
+  float: right;
+  width: 930px;
+  background: rgba(76, 0, 1, 0.349);
+  padding: 5px;
+  border: 10px solid rgba(139, 137, 137, 0.288);
+  
+}
+
+.content3 ul li{
+  color: #000;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Calibri;
+  list-style-type:none;
+  
+}
+
+.content4 ul{
+  float: right;
+  width: 930px;
+  background: rgba(76, 0, 1, 0.349);
+  padding: 5px;
+  border: 10px solid rgba(139, 137, 137, 0.288);
+}
+
+.content4 ul li{
+  color: #000;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Calibri;
+  list-style-type:none;
+  
+}
+
+.content5 ul{
+  float: right;
+  width: 930px;
+  background: rgba(76, 0, 1, 0.349);
+  padding: 5px;
+  border: 10px solid rgba(139, 137, 137, 0.288);
+}
+
+.content5 ul li{
+  color: #000;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Calibri;
+  list-style-type:none;
+}
+
+.content6 ul{
+  float: right;
+  width: 930px;
+  background: rgba(76, 0, 1, 0.349);
+  padding: 5px;
+  border: 10px solid rgba(139, 137, 137, 0.288);
+}
+
+.content6 ul li{
+  color: #000;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Calibri;
+  list-style-type:none;
+}
+
+
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+.content4{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 200px;
+}
+
+
+
+
+iframe {
+    border-width: 20px;
+    border-style: inset;
+    border-color: rgba(76, 0, 1, 0.301);
+    border-image: initial;
+    margin-left: 150px;
+}
+
+img {
+  margin-left: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(95, 41, 42, 0.055);
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:  rgba(76, 0, 1, 0.527);
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(76, 0, 1, 0.349)
+}
+
+.contact form {
+  border-radius: 5px;
+  background-color: rgba(76, 0, 1, 0.712);
+  padding: 20px;
+}
